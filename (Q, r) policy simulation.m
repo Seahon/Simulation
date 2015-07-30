@@ -53,5 +53,5 @@ function ATC= main(r, Q)
         TC(t) = C1(t)+C2(t)+C3(t);
     end
 
-    ATC = mean(TC)/len; 							% 计算总成本
+    ATC = mean(TC)/len; 					% 计算总成本
 end
