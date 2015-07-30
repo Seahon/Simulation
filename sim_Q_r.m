@@ -1,4 +1,4 @@
-function ATC= main(r, Q)
+function ATC= sim_Q_r(r, Q)
 	
     % 设置
     len = 1000; 						% 仿真长度
