@@ -41,7 +41,7 @@ function ATC= sim_Q_r(r, Q)
                 stock(i+1) = stock(i);
             end
             if stock(i+1) <= r && flag == 0
-                order(i+LT(i)) = Q; 				% 再订货
+                order(i+LT(i)) = Q; 				% 发出订货订单
                 flag = 1;
             end
         end
